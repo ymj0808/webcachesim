@@ -3,6 +3,10 @@
 #include <regex>
 #include "caches/lru_variants.h"
 #include "caches/gd_variants.h"
+#include "caches/belady.h"
+#include "caches/belady_sample.h"
+#include "caches/binary_relaxed_belady.h"
+#include "caches/lrb.h"
 #include "request.h"
 
 using namespace std;
